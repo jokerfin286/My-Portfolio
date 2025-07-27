@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кирилл - nevermindk1d | Портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">nevermindk1d</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">О себе</a></li>
+                <li><a href="#skills" class="nav-link">Навыки</a></li>
+                <li><a href="#projects" class="nav-link">Проекты</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Привет, я <span class="highlight">Кирилл</span>
+                </h1>
+                <div class="typing-container">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    20 лет, 6 лет в программировании. Создаю веб-сайты, игры и приложения.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Мои проекты</a>
+                    <a href="#contact" class="btn btn-secondary">Связаться</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <div class="card-content">
+                        <i class="fas fa-code"></i>
+                        <span>Full Stack Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О себе</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Кто я?</h3>
+                        <p>
+                            Меня зовут Кирилл, в интернете известен как <strong>nevermindk1d</strong>. 
+                            Мне 20 лет, и я уже 6 лет занимаюсь программированием. Живу в Беларуси.
+                        </p>
+                        <p>
+                            Начал свой путь с Unity для создания игр. 
+                            Постепенно расширил свои навыки, освоив веб-разработки, изучая HTML, CSS и JavaScript, 
+                            C# для десктопных приложений, Python для автоматизации и работы с AI.
+                        </p>
+                        <p>
+                            Также имею опыт работы с базами данных и всегда стремлюсь изучать 
+                            новые технологии для создания качественных продуктов.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="6">0</div>
+                        <div class="stat-label">Лет опыта</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Проектов</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-label">Технологий</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="20">0</div>
+                        <div class="stat-label">Лет</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Мои навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <span>HTML5</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS3</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="40%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="40%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Desktop</h3>
+                    <div class="skill-item">
+                        <span>C#</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="50%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Базы данных</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Game Development & AI</h3>
+                    <div class="skill-item">
+                        <span>Unity</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>AI</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="15%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/portfolio.png" alt="Веб портфолио">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Веб-портфолио</h3>
+                        <p>Современный адаптивный сайт-портфолио с анимациями и темной темой</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/celestara.png" alt="Unity игра">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://nevermindk1d.itch.io/celestara" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Celestara</h3>
+                        <p>Увлекательная 2.5D игра-рогалик с красивой графикой сделанная как дипломный проект</p>
+                        <div class="project-tech">
+                            <span>Unity</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/celestara_web.png" alt="Unity игра">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://jokerfin286.github.io/Celestara/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jokerfin286/Celestara" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Celestara WebSite</h3>
+                        <p>Официальная страница для игры Celestara</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/okak404.png" alt="Python AI">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://jokerfin286.github.io/OKAK-404/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jokerfin286/OKAK-404" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ОКАК 404</h3>
+                        <p>Страница для вывода ошибки 404</p>
+                        <div class="project-tech">
+                            <span>CSS</span>
+                            <span>HTML</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/golden casino.png" alt="Desktop приложение">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://jokerfin286.github.io/Golden-Casino/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jokerfin286/Golden-Casino" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Golden Casino</h3>
+                        <p>Не настоящий сайт для казино с виртуальной валютой без пополнения</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Black Nova.png" alt="Desktop приложение">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://jokerfin286.github.io/Black-Nova-PC/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jokerfin286/Black-Nova-PC" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Black Nova PC</h3>
+                        <p>Сайт сделанный с конфигурацией моего компьютера для стримов что бы удомно просмотреть из каких комплектующий он состоит</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/SheniAgro.png" alt="Desktop приложение">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://jokerfin286.github.io/sheni-agro/index.html" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jokerfin286/sheni-agro" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sheni Agro</h3>
+                        <p>Сайт сделанный для аграрного предприятия ОАО Шени-агропродукт</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/nevemind.skip.shop.png" alt="Desktop приложение">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://jokerfin286.github.io/nevermind.skip.shop/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/jokerfin286/nevermind.skip.shop" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>nevermind.skip.shop</h3>
+                        <p>Сайт сделан как задание на практику, сайт преднозначен для продажи одежды в моем случаи нефорский шмот</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Связаться со мной</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Давайте работать вместе!</h3>
+                    <p>Готов обсудить ваш проект или ответить на любые вопросы. Выберите удобный способ связи:</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Беларусь</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>nevermindk1d@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-code"></i>
+                            <span>6 лет опыта</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Сообщение" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/jokerfin286" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://web.telegram.org/k/#@nevermindk1d" class="social-link"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.youtube.com/@nevermindk1d" class="social-link"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.twitch.tv/nevermindk1d" class="social-link"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 nevermindk1d. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
